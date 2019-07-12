@@ -1,0 +1,47 @@
+{
+    "name": "itinerisltd/wp-offload-media-crop-thumbnails-cdn-cache-busting",
+    "type": "wordpress-muplugin",
+    "description": "Bust WP Offload Media CDN caches when thumbnails are cropped",
+    "keywords": [
+        "cache-busting",
+        "cdn",
+        "crop-thumbnails",
+        "media-upload",
+        "wordpress",
+        "wp-offload-media",
+        "wp"
+    ],
+    "homepage": "https://github.com/itinerisltd/wp-offload-media-crop-thumbnails-cdn-cache-busting/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Itineris Limited",
+            "email": "hello@itineris.co.uk",
+            "homepage": "https://itineris.co.uk/",
+            "role": "Company"
+        },
+        {
+            "name": "Tang Rufus",
+            "email": "tangrufus@gmail.com",
+            "homepage": "https://typist.tech/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "prefer-stable": true,
+    "support": {
+        "email": "hello@itineris.co.uk",
+        "issues": "https://github.com/ItinerisLtd/wp-offload-media-crop-thumbnails-cdn-cache-busting/issues",
+        "source": "https://github.com/ItinerisLtd/wp-offload-media-crop-thumbnails-cdn-cache-busting"
+    }
+}
